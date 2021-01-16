@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --grey: #333;
+    --magenta: #bd42db;
+    --offwhite: #f8f8ff;
+    --violetta: #471869;
+    font-size: 90%;
+  }
+  
+  body {
+    background: var(--offwhite);
+    color: var(--grey);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  header {
+    padding: 20px 35 px;
+    display: inline;
+    flex-wrap: wrap;
+    top: 0;
+    z-index: 9999;
+  }
+  .high-scores {
+    color: var(--magenta);
+    margin: 10px;
+    font-size: 30px;
+    padding-left: 35px;
+    padding: 10px 10px 10px 35px;
+    text-decoration: none;
+    float:left;
+  }
+
+  .time {
+    color: black;
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px 35px 10px 10px;
+    text-decoration: none;
+    float: right;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 10% 20%;
+  }
+
+  .activity-header {
+    font-size: 40px;
+  }
+
+  main section div p {
+    font-size: 25px;
+  }
+
+  .btn {
+    outline: none;
+    border: none;
+    display: inline-block;
+    padding: 10px 15px;
+    background: var(--violetta);
+    color: var(--offwhite);
+    font-size: 2.2rem;
+    border-radius: 12px;
+    position: relative;
+    top: -3px;
+    box-shadow: 0 3px var(--grey);
+  }
+
+  .btn:hover {
+    box-shadow: 0 2px var(--grey);
+    background: var(--magenta);
+    top: -2px;
+  }
+
+  .btn:active {
+    box-shadow: 0 0px var(--grey);
+    top: 0;
+  }
+
+  #questions {
+    display: none;
+  }
