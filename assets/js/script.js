@@ -79,7 +79,7 @@ function startQuiz() {
 // click answer button to update Q&A set; see right/wrong for a few seconds
 function showNextQuestion() {
     if (indexQuestion > questions.length - 1) {
-        currentQuestionEl.innerHTML = "All done!";
+        currentQuestionEl.style.display = "none";
         answerBtn1.style.display = "none";
         answerBtn2.style.display = "none";
         answerBtn3.style.display = "none";

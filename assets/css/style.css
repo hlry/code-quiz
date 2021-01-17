@@ -127,6 +127,29 @@
 
   #end-game p {
     font-size: 25px;
+    display: block;
+  }
+
+  .end-header {
+    font: large;
+    font-size: 40px;
+    display: block;
+  }  
+
+  #end-game label {
+    font-size: 25px;
+    display: block;
+  }
+
+  #end-game form input {
+    border: 3px solid rgba(0, 110, 255, 0.664);
+    display: block;
+    padding: 7px 15px;
+    font-size: 25px;
+    /* color: var(--secondary-color); */
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: rgba(255,255,255, 0.75);
   }
 
   #endBtn {
