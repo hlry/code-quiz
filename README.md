@@ -15,5 +15,8 @@ https://hlry.github.io/code-quiz/
 Made with ❤️ by hlry
 
 ## Screenshot
+![Code Quiz Screenshot](./images/CodeQuizScreenshot.png?raw=true "Preview")
+
+    /relative/path/to/img.jpg
 
 ### ©️2021 Taskinator
