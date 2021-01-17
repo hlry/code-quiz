@@ -89,3 +89,67 @@
   #questions {
     display: none;
   }
+
+  #currentQuestion {
+    font-size: 40px;
+  }
+
+  .answerBtn {
+    outline: none;
+    border: none;
+    display: block;
+    padding: 10px 15px;
+    background: var(--violetta);
+    color: var(--offwhite);
+    font-size: 2.2rem;
+    border-radius: 12px;
+    margin: 10px auto;
+    top: -3px;
+    box-shadow: 0 3px var(--grey);
+  }
+
+  .answerBtn:hover {
+    box-shadow: 0 2px var(--grey);
+    background: var(--magenta);
+    top: -2px;
+  }
+
+  .answerBtn:active {
+    box-shadow: 0 0px var(--grey);
+    top: 0;
+  }
+
+
+  #end-game {
+    display: none;
+    
+  }
+
+  #end-game p {
+    font-size: 25px;
+  }
+
+  #endBtn {
+    outline: none;
+    border: none;
+    display: block;
+    padding: 10px 15px;
+    background: var(--violetta);
+    color: var(--offwhite);
+    font-size: 2.2rem;
+    border-radius: 12px;
+    margin: 10px auto;
+    top: -3px;
+    box-shadow: 0 3px var(--grey);
+  }
+
+  #endBtn:hover {
+    box-shadow: 0 2px var(--grey);
+    background: var(--magenta);
+    top: -2px;
+  }
+
+  #endBtn:active {
+    box-shadow: 0 0px var(--grey);
+    top: 0;
+  }
